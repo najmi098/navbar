@@ -1,6 +1,6 @@
 var dropdown = document.getElementsByClassName("dropdown-btn");
 var i;
-console.log("Kucing Firaun");
+console.log("Kucing Firaun Anaknya Bambang");
 for (i = 0; i < dropdown.length; i++) {
   dropdown[i].addEventListener("click", function() {
   this.classList.toggle("active");
