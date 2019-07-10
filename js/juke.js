@@ -1,7 +1,6 @@
 var dropdown = document.getElementsByClassName("dropdown-btn");
 var i;
-document.getElementById("demo").innerHTML = "Kucing Firaun";
-document.write("Kucing Firaun");
+console.log("Kucing Firaun");
 for (i = 0; i < dropdown.length; i++) {
   dropdown[i].addEventListener("click", function() {
   this.classList.toggle("active");
