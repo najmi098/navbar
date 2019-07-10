@@ -1,0 +1,260 @@
+/*******************
+*Fonts
+********************/
+@font-face {
+  font-family: 'DINNextLTPro-Regular';
+  src: url('../fonts/webfonts/DINNextLTPro-Regular.eot');
+  src: url('../fonts/webfonts/DINNextLTPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/DINNextLTPro-Regular.woff') format('woff'), url('fonts/webfonts/DINNextLTPro-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'DINNextLTPro-Medium';
+  src: url('../fonts/webfonts/DINNextLTPro-Medium.eot');
+  src: url('../fonts/webfonts/DINNextLTPro-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/DINNextLTPro-Medium.woff') format('woff'), url('fonts/webfonts/DINNextLTPro-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'DINNextLTPro-Light';
+  src: url('../fonts/webfonts/DINNextLTPro-Light.eot');
+  src: url('../fonts/webfonts/DINNextLTPro-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/DINNextLTPro-Light.woff') format('woff'), url('fonts/webfonts/DINNextLTPro-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'DINNextLTPro-Condensed';
+  src: url('../fonts/webfonts/DINNextLTPro-Condensed.eot');
+  src: url('../fonts/webfonts/DINNextLTPro-Condensed.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/DINNextLTPro-Condensed.eot.woff') format('woff'), url('fonts/webfonts/DINNextLTPro-Condensed.eot.ttf') format('truetype');
+}
+/**********************************************
+* Fonts
+**********************************************/
+@font-face {
+  font-family: 'DIN Next Pro';
+  src: url('../fonts/webfonts/DINNextLTPro-Light.eot');
+  src: url('../fonts/webfonts/DINNextLTPro-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/DINNextLTPro-Light.woff') format('woff'), url('fonts/webfonts/DINNextLTPro-Light.ttf') format('truetype');
+}
+/**************************************************
+* INPUT COMPONENT STYLES
+* - Make sure this overrides Spotfires stylings
+***************************************************/
+body {
+  font-family: 'DINNextLTPro-Regular', sans-serif !important;
+}
+/******************************************************************
+* SELECT - Follows the primary button
+*******************************************************************/
+.HtmlTextArea .StyledDropDown,
+.StyledDropDown {
+  font-family: 'DINNextLTPro-Regular', sans-serif !important;
+  border: solid 1PX #BCBCBC!important;
+  background: none!important;
+  background-color: #ffffff !important;
+  padding: 12px 0px 12px 12px!important;
+  height: auto !important;
+  font-size: 14px !important;
+  outline: none;
+  text-align: left !important;
+}
+.HtmlTextArea .StyledDropDown:hover,
+.StyledDropDown:hover {
+  background: none!important;
+}
+.customSelect {
+  /* This is the default class that is used */
+  /* Put whatever custom styles you want here */
+  background: url(../img/select-arrow-down.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: right center!important;
+  font-size: 14px !important;
+  text-align: left !important;
+}
+.customSelect option {
+  margin: 40px;
+  background: red;
+}
+.customSelect.customSelectHover {
+  /* Styles for when the select box is hovered */
+}
+.customSelect.customSelectOpen {
+  /* Styles for when the select box is open */
+}
+.customSelect.customSelectFocus {
+  /* Styles for when the select box is in focus */
+}
+.customSelectInner {
+  /* You can style the inner box too */
+}
+/***********
+* BUTTONS
+***********/
+.HtmlTextArea .StyledActionControlButton,
+.StyledActionControlButton {
+  font-family: 'DINNextLTPro-Regular', sans-serif !important;
+  border: solid 1PX #BCBCBC!important;
+  border-radius: 3px!important;
+  background: none!important;
+  background-color: #F9F9F9 !important;
+  color: #292929  !important;
+  padding: 12px !important;
+  height: auto !important;
+  font-size: 14px !important;
+  outline: none;
+}
+.HtmlTextArea .StyledActionControlButton:hover,
+.StyledActionControlButton:hover {
+  background-color: #FEFEFE!important;
+  border-color: #8C8C8C!important;
+}
+.HtmlTextArea .StyledActionControlButton:focus,
+.StyledActionControlButton:focus,
+.HtmlTextArea .StyledActionControlButton.hit,
+.StyledActionControlButton.hit {
+  outline: none!important;
+  background-color: #EAEAEA!important;
+  border-color: #8C8C8C!important;
+}
+.HtmlTextArea .StyledActionControlButton:focus:hover,
+.StyledActionControlButton:focus:hover,
+.HtmlTextArea .StyledActionControlButton.hit:hover,
+.StyledActionControlButton.hit:hover {
+  background-color: #FEFEFE!important;
+  border-color: #8C8C8C!important;
+}
+.HtmlTextArea .StyledActionControlButton.disabled,
+.StyledActionControlButton.disabled {
+  background-color: #F9F9F9 !important;
+  color: #C4C4C4!important;
+}
+.HtmlTextArea .StyledActionControlButton.disabled:hover,
+.StyledActionControlButton.disabled:hover {
+  background-color: #F9F9F9 !important;
+  border: solid 1PX #BCBCBC!important;
+}
+/***********
+* TEXTAREA
+***********/
+.HtmlTextArea {
+  border: solid #c4c4c4 1px;
+  font-family: 'DINNextLTPro-Regular', sans-serif !important;
+}
+/***********
+* PANELS
+***********/
+.panelViewHeader {
+  border-bottom: none!important;
+}
+.panelViewHeader > * {
+  font-family: 'DINNextLTPro-Light', sans-serif !important;
+  color: #292929 !important;
+  line-height: 24px!important;
+  font-weight: normal!important;
+}
+.panelViewHeader > div:first-child > div:first-child {
+  top: 0!important;
+  height: 16px!important;
+}
+.LegendButton {
+  background: url(../img/dotdotdot.png) !important;
+  background-position: right 12px!important;
+  background-repeat: no-repeat !important;
+}
+/***********
+* Scrollbars
+***********/
+.StyledScrollbar .HorizontalScrollbarContainer {
+  background-color: #ffffff !important;
+  position: absolute;
+  border: 0!important;
+}
+.StyledScrollbar .HorizontalScrollbarContainer .ScrollbarHandle {
+  border-radius: 0px!important;
+  border: none!important;
+  background-color: #dc1209 !important;
+  background: #dc1209 !important;
+  filter: none!important;
+}
+.StyledScrollbar .VerticalScrollbarContainer {
+  background-color: #ffffff !important;
+  position: absolute;
+  border: 0!important;
+}
+.StyledScrollbar .VerticalScrollbarContainer .ScrollbarHandle {
+  border-radius: 0px!important;
+  border: none!important;
+  background-color: #dc1209 !important;
+  background: #dc1209 !important;
+  filter: none!important;
+}
+/*****************
+* Text field
+******************/
+.textField {
+  line-height: 1.42857143!important;
+  color: #555555!important;
+  background-color: #ffffff!important;
+  background-image: none!important;
+  border: 1px solid #cccccc!important;
+  border-radius: 0!important;
+}
+/***********
+* Login
+***********/
+.wholePageLogOn {
+  background-image: none!important;
+  background: #fff!important;
+}
+.wholePageLogOn .logOnLogoBig {
+  background: url('../img/logo-big.png');
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 255px;
+  margin-left: 20px;
+}
+.wholePageLogOn #ctl00_content_headerLabel {
+  display: none!important;
+}
+.wholePageLogOn #ctl00_content_logOnTopHeader_mainDiv {
+  display: none!important;
+}
+.wholePageLogOn #ctl00_content_logOnControlTd {
+  background-image: none!important;
+  box-shadow: none!important;
+}
+.wholePageLogOn .logOnControlInner {
+  background: transparent!important;
+  padding-top: 0!important;
+}
+.wholePageLogOn .logOnControlInner > div {
+  width: 320px!important;
+}
+.wholePageLogOn .textField {
+  font-size: 22px!important;
+  padding: 8px 20px!important;
+  margin: 0!important;
+  width: 274px!important;
+  color: #555555!important;
+}
+.wholePageLogOn #ctl00_content_userNameTextBox {
+  margin-bottom: 10px!important;
+}
+.wholePageLogOn .logOnCheckBoxDiv .StyledInput {
+  border-color: #cccccc!important;
+  color: #555555!important;
+}
+.wholePageLogOn label {
+  font-size: 14px!important;
+  color: #555555!important;
+}
+.wholePageLogOn .LoginButton {
+  background: #e24f48!important;
+  border-color: #e24f48;
+  font-size: 22px!important;
+  padding: 16px;
+  margin-top: 0!important;
+  margin-bottom: 0px!important;
+  width: 312px!important;
+}
+.wholePageLogOn .LoginButton:active {
+  padding: 16px!important;
+  margin-top: 0!important;
+  margin-bottom: 0px!important;
+}
+.wholePageLogOn .LoginButton:hover {
+  box-shadow: none;
+}

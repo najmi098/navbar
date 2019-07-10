@@ -1,0 +1,142 @@
+/*******************
+*Fonts
+********************/
+@font-face {
+  font-family: 'DINNextLTPro-Regular';
+  src: url('../fonts/webfonts/DINNextLTPro-Regular.eot');
+  src: url('../fonts/webfonts/DINNextLTPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/DINNextLTPro-Regular.woff') format('woff'), url('fonts/webfonts/DINNextLTPro-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'DINNextLTPro-Medium';
+  src: url('../fonts/webfonts/DINNextLTPro-Medium.eot');
+  src: url('../fonts/webfonts/DINNextLTPro-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/DINNextLTPro-Medium.woff') format('woff'), url('fonts/webfonts/DINNextLTPro-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'DINNextLTPro-Light';
+  src: url('../fonts/webfonts/DINNextLTPro-Light.eot');
+  src: url('../fonts/webfonts/DINNextLTPro-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/DINNextLTPro-Light.woff') format('woff'), url('fonts/webfonts/DINNextLTPro-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'DINNextLTPro-Condensed';
+  src: url('../fonts/webfonts/DINNextLTPro-Condensed.eot');
+  src: url('../fonts/webfonts/DINNextLTPro-Condensed.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/DINNextLTPro-Condensed.eot.woff') format('woff'), url('fonts/webfonts/DINNextLTPro-Condensed.eot.ttf') format('truetype');
+}
+/**************************************************
+* INPUT COMPONENT STYLES
+* - Make sure this overrides Spotfires stylings
+***************************************************/
+body {
+  font-family: 'DINNextLTPro-Regular', sans-serif !important;
+}
+/***********
+* SELECT - Follows the primary button
+***********/
+.HtmlTextArea .StyledDropDown,
+.StyledDropDown {
+  font-family: 'DINNextLTPro-Regular', sans-serif !important;
+  border: solid #c4c4c4 1px;
+  background: none!important;
+  background-color: #ffffff !important;
+  padding: 10px !important;
+  height: auto !important;
+  outline: none;
+}
+.HtmlTextArea .StyledDropDown:hover,
+.StyledDropDown:hover {
+  background: none!important;
+}
+/***********
+* BUTTONS
+***********/
+.HtmlTextArea .StyledActionControlButton,
+.StyledActionControlButton {
+  font-family: 'DINNextLTPro-Regular', sans-serif !important;
+  border: none;
+  background: none!important;
+  background-color: #e23f37 !important;
+  color: #ffffff !important;
+  padding: 10px !important;
+  height: auto !important;
+  outline: none;
+}
+.HtmlTextArea .StyledActionControlButton:hover,
+.StyledActionControlButton:hover {
+  background-color: #e24f48 !important;
+}
+.HtmlTextArea .StyledActionControlButton:focus,
+.StyledActionControlButton:focus,
+.HtmlTextArea .StyledActionControlButton.hit,
+.StyledActionControlButton.hit {
+  outline: none!important;
+  background-color: #e24f48 !important;
+}
+.HtmlTextArea .StyledActionControlButton:focus:hover,
+.StyledActionControlButton:focus:hover,
+.HtmlTextArea .StyledActionControlButton.hit:hover,
+.StyledActionControlButton.hit:hover {
+  background-color: #e24f48 !important;
+}
+.HtmlTextArea .StyledActionControlButton.disabled,
+.StyledActionControlButton.disabled {
+  background-color: #a4a4a4 !important;
+}
+.HtmlTextArea .StyledActionControlButton.disabled:hover,
+.StyledActionControlButton.disabled:hover {
+  background-color: #a4a4a4 !important;
+}
+/***********
+* TEXTAREA
+***********/
+.HtmlTextArea {
+  border: solid #c4c4c4 1px;
+  font-family: 'DINNextLTPro-Regular', sans-serif !important;
+}
+/***********
+* PANELS
+***********/
+.panelViewHeader {
+  top: 20px!important;
+  border-bottom: none!important;
+}
+.panelViewHeader > * {
+  font-family: 'DINNextLTPro-Light', sans-serif !important;
+  color: #292929 !important;
+  line-height: 24px!important;
+  font-weight: normal!important;
+}
+.panelViewHeader > div:first-child > div:first-child {
+  top: 0!important;
+  height: 16px!important;
+}
+.LegendButton {
+  background: url(../img/dotdotdot.png) !important;
+  background-position: right 12px!important;
+  background-repeat: no-repeat !important;
+}
+/***********
+* Scrollbars
+***********/
+.StyledScrollbar .HorizontalScrollbarContainer {
+  background-color: #ffffff !important;
+  position: absolute;
+  border: 0!important;
+}
+.StyledScrollbar .HorizontalScrollbarContainer .ScrollbarHandle {
+  border-radius: 0px!important;
+  border: none!important;
+  background-color: #dc1209 !important;
+  background: #dc1209 !important;
+  filter: none!important;
+}
+.StyledScrollbar .VerticalScrollbarContainer {
+  background-color: #ffffff !important;
+  position: absolute;
+  border: 0!important;
+}
+.StyledScrollbar .VerticalScrollbarContainer .ScrollbarHandle {
+  border-radius: 0px!important;
+  border: none!important;
+  background-color: #dc1209 !important;
+  background: #dc1209 !important;
+  filter: none!important;
+}

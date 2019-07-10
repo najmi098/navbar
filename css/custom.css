@@ -1,0 +1,351 @@
+/**********************************************
+* Fonts
+**********************************************/
+/*
+@font-face {
+  font-family: 'DIN Next LT Pro';
+  src: url('../fonts/webfonts/DINNextLTPro-Light.eot');
+  src: url('../fonts/webfonts/DINNextLTPro-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/DINNextLTPro-Light.woff') format('woff'), url('fonts/webfonts/DINNextLTPro-Light.ttf') format('truetype');
+}
+*/
+@font-face {
+  font-family: 'Open Sans';
+  src: url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,700');
+}
+/**************************************************
+* INPUT COMPONENT STYLES
+* - Make sure this overrides Spotfires stylings
+***************************************************/
+body {
+  font-family: 'Open Sans', 'Arial', sans-serif !important;
+}
+/******************************************************************
+* SELECT - Follows the primary button
+*******************************************************************/
+.HtmlTextArea .StyledDropDown,
+.StyledDropDown {
+  font-family: 'Open Sans', 'Arial', sans-serif !important;
+  border: solid 1PX #BCBCBC!important;
+  background: none!important;
+  background-color: #ffffff !important;
+  padding: 6px 0px 6px 12px!important;
+  height: auto !important;
+  font-size: 14px !important;
+  outline: none;
+  text-align: left !important;
+}
+.HtmlTextArea .StyledDropDown:hover,
+.StyledDropDown:hover {
+  background: none!important;
+}
+.customSelect {
+  /* This is the default class that is used */
+  /* Put whatever custom styles you want here */
+  background: url(../img/select-arrow-down.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: right center!important;
+  font-size: 14px !important;
+  text-align: left !important;
+}
+.customSelect option {
+  margin: 40px;
+  background: red;
+}
+.customSelect.customSelectHover {
+  /* Styles for when the select box is hovered */
+}
+.customSelect.customSelectOpen {
+  /* Styles for when the select box is open */
+}
+.customSelect.customSelectFocus {
+  /* Styles for when the select box is in focus */
+}
+.customSelectInner {
+  /* You can style the inner box too */
+}
+/**
+* Smaller style
+*/
+.s-select {
+  font-size: 10px !important;
+  padding: 4px 0px 4px 12px!important;
+}
+.small-select .HtmlTextArea .StyledDropDown,
+.small-select .StyledDropDown {
+  font-size: 10px !important;
+  padding: 4px 0px 4px 12px!important;
+}
+#rev_overview_home_kpi_filter .HtmlTextArea .StyledDropDown,
+#rev_overview_home_kpi_filter .StyledDropDown {
+  font-size: 10px !important;
+  padding: 4px 0px 4px 12px!important;
+}
+/***********
+* BUTTONS
+***********/
+.HtmlTextArea .StyledActionControlButton,
+.StyledActionControlButton {
+  font-family: 'Open Sans', 'Arial', sans-serif !important;
+  border: solid 1PX #BCBCBC!important;
+  border-radius: 3px!important;
+  background: none!important;
+  background-color: #F9F9F9 !important;
+  color: #292929  !important;
+  padding: 6px 12px!important;
+  height: auto !important;
+  font-size: 14px !important;
+  outline: none;
+}
+.HtmlTextArea .StyledActionControlButton:hover,
+.StyledActionControlButton:hover {
+  background-color: #FEFEFE!important;
+  border-color: #8C8C8C!important;
+}
+.HtmlTextArea .StyledActionControlButton:focus,
+.StyledActionControlButton:focus,
+.HtmlTextArea .StyledActionControlButton.hit,
+.StyledActionControlButton.hit {
+  outline: none!important;
+  background-color: #EAEAEA!important;
+  border-color: #8C8C8C!important;
+}
+.HtmlTextArea .StyledActionControlButton:focus:hover,
+.StyledActionControlButton:focus:hover,
+.HtmlTextArea .StyledActionControlButton.hit:hover,
+.StyledActionControlButton.hit:hover {
+  background-color: #FEFEFE!important;
+  border-color: #8C8C8C!important;
+}
+.HtmlTextArea .StyledActionControlButton.disabled,
+.StyledActionControlButton.disabled {
+  background-color: #F9F9F9 !important;
+  color: #C4C4C4!important;
+}
+.HtmlTextArea .StyledActionControlButton.disabled:hover,
+.StyledActionControlButton.disabled:hover {
+  background-color: #F9F9F9 !important;
+  border: solid 1PX #BCBCBC!important;
+}
+/***********
+* TEXTAREA
+***********/
+.HtmlTextArea {
+  border: solid #c4c4c4 1px;
+  font-family: 'Open Sans', 'Arial', sans-serif !important;
+  padding: 0!important;
+}
+/***********
+* PANELS
+***********/
+.panelViewHeader {
+  border-bottom: none!important;
+}
+.panelViewHeader > * {
+  font-family: 'DIN Next LT Pro', 'Open Sans', 'Arial', sans-serif !important;
+  color: #292929 !important;
+  line-height: 24px!important;
+  font-weight: bolder!important;
+}
+.panelViewHeader > div:first-child > div:first-child {
+  top: 0!important;
+  height: 16px!important;
+}
+.LegendButton {
+  background: url(../img/dotdotdot.png) !important;
+  background-position: right 12px!important;
+  background-repeat: no-repeat !important;
+}
+/***********
+* Scrollbars
+***********/
+.StyledScrollbar .HorizontalScrollbarContainer {
+  background-color: #ffffff !important;
+  position: absolute;
+  border: 0!important;
+}
+.StyledScrollbar .HorizontalScrollbarContainer .ScrollbarHandle {
+  border-radius: 0px!important;
+  border: none!important;
+  background-color: #efefef !important;
+  background: #efefef !important;
+  filter: none!important;
+}
+.StyledScrollbar .VerticalScrollbarContainer {
+  background-color: #ffffff !important;
+  position: absolute;
+  border: 0!important;
+}
+.StyledScrollbar .VerticalScrollbarContainer .ScrollbarHandle {
+  border-radius: 0px!important;
+  border: none!important;
+  background-color: #efefef !important;
+  background: #efefef !important;
+  filter: none!important;
+}
+/*****************
+* Text field
+******************/
+.textField {
+  line-height: 1.42857143!important;
+  color: #555555!important;
+  background-color: #ffffff!important;
+  background-image: none!important;
+  border: 1px solid #cccccc!important;
+  border-radius: 0!important;
+}
+/***********
+* Login
+***********/
+.wholePageLogOn {
+  background-image: none!important;
+  background: #fff!important;
+}
+.wholePageLogOn .logOnLogoBig {
+  background: url('../img/logo-big.png');
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 255px;
+  margin-left: 20px;
+}
+.wholePageLogOn #ctl00_content_headerLabel {
+  display: none!important;
+}
+.wholePageLogOn #ctl00_content_logOnTopHeader_mainDiv {
+  display: none!important;
+}
+.wholePageLogOn #ctl00_content_logOnControlTd {
+  background-image: none!important;
+  box-shadow: none!important;
+}
+.wholePageLogOn .logOnControlInner {
+  background: transparent!important;
+  padding-top: 0!important;
+}
+.wholePageLogOn .logOnControlInner > div {
+  width: 320px!important;
+}
+.wholePageLogOn .textField {
+  font-size: 22px!important;
+  padding: 8px 20px!important;
+  margin: 0!important;
+  width: 274px!important;
+  color: #555555!important;
+}
+.wholePageLogOn #ctl00_content_userNameTextBox {
+  margin-bottom: 10px!important;
+}
+.wholePageLogOn .logOnCheckBoxDiv .StyledInput {
+  border-color: #cccccc!important;
+  color: #555555!important;
+}
+.wholePageLogOn label {
+  font-size: 14px!important;
+  color: #555555!important;
+}
+.wholePageLogOn .LoginButton {
+  background: #e24f48!important;
+  border-color: #e24f48;
+  font-size: 22px!important;
+  padding: 16px;
+  margin-top: 0!important;
+  margin-bottom: 0px!important;
+  width: 312px!important;
+}
+.wholePageLogOn .LoginButton:active {
+  padding: 16px!important;
+  margin-top: 0!important;
+  margin-bottom: 0px!important;
+}
+.wholePageLogOn .LoginButton:hover {
+  box-shadow: none;
+}
+/**********************************
+* Custom Style - colors
+**********************************/
+/**********************************
+* KPI table
+* - Similar to panel label but smaller
+**********************************/
+.kpi-table {
+  width: 100%;
+  border-collapse: collapse!important;
+  border: none!important;
+}
+.kpi-table td {
+  border-left: solid #c4c4c4 1px;
+  border-bottom: solid #c4c4c4 1px;
+  vertical-align: top;
+  padding: 12px 8px;
+}
+.kpi-table td:first-child {
+  border-left: none;
+}
+.kpi-label label {
+  font-family: 'Open Sans', 'Arial', sans-serif !important;
+  font-weight: 300!important;
+  color: #666666 !important;
+  width: 100%;
+}
+.kpi-label label .kpi-text {
+  font-size: 14px!important;
+  line-height: 10px!important;
+  font-weight: bold!important;
+}
+.kpi-label label .note {
+  font-size: 12px!important;
+  line-height: 10px!important;
+  color: #292929 !important;
+  font-weight: normal!important;
+  color: #a4a4a4 !important;
+}
+.kpi-value {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  position: relative;
+}
+.kpi-value .kpi-value-text {
+  font-size: 24px!important;
+  font-weight: bold!important;
+  color: #292929 !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  padding-right: 20px;
+  font-family: 'Open Sans Condensed', 'Open Sans', 'Arial', sans-serif !important;
+}
+.kpi-value .kpi-value-text .EmbeddedMiniatureVisualization span {
+  font-size: 24px!important;
+  font-weight: bold!important;
+  color: #292929 !important;
+  font-family: 'Open Sans Condensed', 'Open Sans', 'Arial', sans-serif !important;
+}
+.kpi-value .kpi-dir-indicator {
+  font-size: 10px!important;
+  width: 12px;
+  height: 12px;
+  right: 0px;
+  top: 0px;
+  position: absolute;
+}
+.kpi-value .kpi-dir-indicator .EmbeddedMiniatureVisualization span {
+  font-size: 24px!important;
+  font-weight: bold!important;
+  color: #292929 !important;
+}
+.kpi-value .kpi-dir-indicator img {
+  width: 10px!important;
+  height: 10px!important;
+}
+/**********************************
+* KPI Filter
+**********************************/
+.kpi-filter-td {
+  font-weight: bold!important;
+  width: 150px;
+}
+.kpi-filter-td select {
+  font-size: 10px !important;
+  padding: 4px 0px 4px 12px!important;
+  width: 150px;
+}
